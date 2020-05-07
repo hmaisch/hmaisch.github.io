@@ -5,18 +5,26 @@ body{
     font-family: futura-pt, sans-serif;
 }
 
-.navy{
-    color: #1E2349;
-}
-
 .off-white{
     color: #F2F2F2;
 }
 
 .masthead{
+    margin: auto;
     font-size: 4em;
     font-weight: 700;
     font-style: normal;
+    line-height: .5em;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+hr{
+    height: 3px;
+    width: 80vw;
+    color: #DDADD2;
+    border-style: solid;
+    background-color: #DDADD2;
 }
 
 .homepage-link{
@@ -24,6 +32,8 @@ body{
     font-weight: 700;
     font-style: normal;
     color: #1E2349;
+    width: 70vw;
+    text-align: center;
 }
 
 .homepage-links{
@@ -31,10 +41,15 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #F2F2F2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
 }
 
 .page-links{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     color: #1E2349;
@@ -44,9 +59,20 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+div a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 h2{
     font-size: 100px;
     font-weight: 600;
     font-style: normal;
     color: #1E2349;
+}
+
+a{
+    text-decoration: none;
+    color: #DDADD2;
 }
