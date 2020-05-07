@@ -1,3 +1,10 @@
+body{
+    background-color: #1E2349;
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt, sans-serif;
+}
+
 .navy{
     color: #1E2349;
 }
@@ -7,14 +14,12 @@
 }
 
 .masthead{
-    font-family: futura-pt, sans-serif;
-    font-size: 300px;
+    font-size: 4em;
     font-weight: 700;
     font-style: normal;
 }
 
 .homepage-link{
-    font-family: futura-pt, sans-serif;
     font-size: 1000px;
     font-weight: 700;
     font-style: normal;
@@ -22,7 +27,6 @@
 }
 
 .homepage-links{
-    font-family: futura-pt, sans-serif;
     font-size: 40px;
     font-weight: 400;
     font-style: normal;
@@ -30,7 +34,6 @@
 }
 
 .page-links{
-    font-family: futura-pt, sans-serif;
     font-size: 40px;
     font-weight: 400;
     font-style: normal;
@@ -42,7 +45,6 @@
 }
 
 h2{
-    font-family: futura-pt, sans-serif;
     font-size: 100px;
     font-weight: 600;
     font-style: normal;
