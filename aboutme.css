@@ -8,22 +8,19 @@ body{
 div a {
     display: block;
     margin: 0 auto;
-    color: #DDADD2;
+    color: #f2f2f2;
 }
 
 a{
     text-decoration: none;
 }
 
-p{
-    font-size: 14px;
-    color: #1E2349;
-}
-
 .header{
     display: grid;
     grid-template-columns: 5fr 2fr;
     grid-template-rows: 1fr;
+
+    background-color: slategray;
 }
 
 .homepage-link{
@@ -38,7 +35,6 @@ p{
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    color: #1E2349;
     text-align: left;
     margin-left: 10px;
     margin-top: auto;
@@ -52,7 +48,7 @@ p{
 .subhead{
     font-size: 40px;
     font-weight: 700;
-    color: #1E2349;
+    color: #a87e9e;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -64,7 +60,6 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-
 }
 
 .description-header{
@@ -86,7 +81,7 @@ p{
 
 img{
     max-width: 400px;
-    max-height: 400px;
+    max-height: 100%;
     padding: 10px;
 }
 

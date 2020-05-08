@@ -8,7 +8,7 @@ body{
 div a {
     display: block;
     margin: 0 auto;
-    color: #DDADD2;
+    color: #F2F2F2;
 }
 
 a{
@@ -24,6 +24,8 @@ p{
     display: grid;
     grid-template-columns: 5fr 2fr;
     grid-template-rows: 1fr;
+
+    background-color: slategray;
 }
 
 .homepage-link{
@@ -53,7 +55,7 @@ p{
 .subhead{
     font-size: 40px;
     font-weight: 700;
-    color: #1E2349;
+    color: #a87e9e;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -82,9 +84,9 @@ p{
 hr{
     height: 3px;
     width: 50vw;
-    color: #DDADD2;
+    color: #a87e9e;
     border-style: solid;
-    background-color: #DDADD2;
+    background-color: #a87e9e;
 }
 
 h2{
@@ -97,5 +99,4 @@ h3{
     font-size: 25px;
     font-weight: 300;
     color: #1E2349;
-    font
 }
