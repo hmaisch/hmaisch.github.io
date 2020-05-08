@@ -62,12 +62,17 @@ a{
     grid-template-rows: 1fr;
 }
 
+.description-content{
+    height: 200px;
+    border-left: slategray solid 4px;
+}
+
 .description-header{
     font-size: 25px;
     font-weight: 600;
     color: #1E2349;
     line-height: 2em;
-
+    padding-left: 15px;
     width: 50vw;
     margin: auto;
     text-align: left;
@@ -77,12 +82,17 @@ a{
     font-size: 14px;
     color: #1E2349;
     width: 50vw;
+    padding-left: 15px;
 }
 
 img{
-    max-width: 400px;
+    max-width: 100%;
     max-height: 100%;
-    padding: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
 }
 
-
+.self-photo{
+    height: 400px;
+    width: 500px;
+}

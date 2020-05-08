@@ -82,12 +82,15 @@ img{
 .info{
     margin: auto;
     margin-top: 0;
+    width: 60vw;
+    border-left: slategray solid 4px;
 }
 
 .project-name-1{
     font-weight: 600;
     font-size: 20px;
     padding-bottom: 20px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     width: 60vw;
@@ -99,6 +102,7 @@ img{
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
 
     color: #1E2349;
     font-weight: 400;
@@ -116,12 +120,14 @@ img{
     font-weight: 600;
     font-size: 20px;
     padding-bottom: 20px;
+    padding-left: 15px;
     margin: auto;
     color: #1E2349;
 }
 
 .description-2{
     padding-right: 150px;
+    padding-left: 15px;
     margin-top: 0;
     color: #1E2349;
     font-weight: 400;

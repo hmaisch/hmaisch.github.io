@@ -102,17 +102,21 @@ img:hover{
 }
 
 .info{
+    height: 150px;
     margin-top: 0;
+    border-left: slategray solid 4px;
 }
 
 .dimensions{
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 20px;
+    padding-left: 15px;
     color: #1E2349;
 }
 
 .description{
     width: 365px;
     color: #1E2349;
+    padding-left: 15px;
 }
