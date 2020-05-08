@@ -3,10 +3,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: futura-pt, sans-serif;
-}
 
-.off-white{
-    color: #F2F2F2;
+    margin-top: 15em;
+    margin-bottom: 5em;
 }
 
 .masthead{
@@ -24,11 +23,11 @@ hr{
     width: 80vw;
     color: #DDADD2;
     border-style: solid;
-    background-color: #DDADD2;
+    background-color: #ddadd2;
 }
 
 .homepage-link{
-    font-size: 1000px;
+    font-size: 100px;
     font-weight: 700;
     font-style: normal;
     color: #1E2349;
@@ -49,7 +48,7 @@ hr{
 }
 
 .page-links{
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 400;
     font-style: normal;
     color: #1E2349;
@@ -59,10 +58,17 @@ hr{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.header{
+    display: grid;
+    grid-template-columns: 1fr 20fr 20fr;
+    grid-template-rows: 1fr;
+}
+
 div a {
     text-align: center;
     display: block;
     margin: 0 auto;
+    color: #f2f2f2;
 }
 
 h2{
@@ -74,5 +80,5 @@ h2{
 
 a{
     text-decoration: none;
-    color: #DDADD2;
 }
+
