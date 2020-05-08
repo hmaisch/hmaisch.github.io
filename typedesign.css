@@ -56,63 +56,64 @@ a{
 
 .content{
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 800px 800px;
     grid-gap: 50px;
 }
 
-.drawing-1{
+.project-1{
     display: grid;
-    grid-template-columns: 730px 1fr;
-    grid-template-rows: 700px;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 730px;
 
     margin: auto;
+    padding: 50px;
 }
 
-.drawing-2{
+.project-2{
     display: grid;
     grid-template-columns: 730px 1fr;
-    grid-template-rows: 700px;
+    grid-template-rows: 730px;
 
     margin: auto;
-}
-
-.drawing-3{
-    display: grid;
-    grid-template-columns: 730px 1fr;
-    grid-template-rows: 700px;
-
-    margin: auto;
+    padding: 50px;
 }
 
 img{
     display: block;
-    width: 365px;
-    height: 499px;
+    max-width: 730px;
+    max-height: 914px;
 }
 
-.image{
+.image-1{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-}
 
-img:hover{
     width: 730px;
-    height: 998px;
+    height: 692px;
 }
 
-.info{
+img .project-1{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+}
+
+.image-2{
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 730px;
+    height: 914px;
 }
 
-.dimensions{
-    font-size: 20px;
-    font-weight: 600;
-    padding-bottom: 20px;
-    color: #1E2349;
-}
-
-.description{
-    width: 365px;
-    color: #1E2349;
+.designs{
+    display: flex;
+    flex: 33.33%;
 }
