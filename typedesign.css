@@ -64,10 +64,16 @@ img{
     display: block;
     margin: auto;
     margin-right: 50px;
-    max-height: 700px;
+    max-height: 900px;
     width: 350px;
     object-fit: cover;
-    
+}
+
+img:hover{
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .designs{
